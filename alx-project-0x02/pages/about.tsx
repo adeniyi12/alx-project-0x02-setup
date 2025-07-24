@@ -6,9 +6,9 @@ const about = () => {
     <div>
       <Header />
       <h1>About</h1>
-      <Button size="sm" shape="rounded-sm" children="Button" />
-      <Button size="md" shape="rounded-md" children="Button" />
-      <Button size="lg" shape="rounded-lg" children="Button" />
+      <Button size="small" shape="rounded-sm" children="Button" />
+      <Button size="medium" shape="rounded-md" children="Button" />
+      <Button size="large" shape="rounded-full" children="Button" />
     </div>
   );
 };
